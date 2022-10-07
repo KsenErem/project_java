@@ -1,0 +1,223 @@
+@media (min-width: 300px) and (max-width: 650px) {
+    .selector {
+        margin-top: 50px !important;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 390px) {
+    .selector {
+        margin-top: 70px !important;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 290px) {
+    .selector {
+        margin-top: 100px !important;
+    }
+}
+
+
+.tab{
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 17pt;
+    cursor: pointer;
+}
+
+.tabs{
+    height: 35px;
+}
+
+.tab-selected {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+th, td{
+    width: 50px;
+    height: 25px;
+    border: 1px solid #a1a1a1;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.table-wrapper{
+    width: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+table{
+    margin-top: 50px;
+    border-collapse: collapse;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.navigation-end-menu{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
+.navigation-menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.start-button {
+    position: absolute;
+    left: 20px;
+    right: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 12pt;
+    margin-right: 70px;
+    background-color: #CAD0EF;
+    height: 40px;
+    border: 0;
+    width: 150px;
+}
+
+.end-button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 12pt;
+    margin-right: 70px;
+    background-color: #AAE8A9;
+    height: 40px;
+    border: 0;
+    width: 150px;
+}
+
+.center-button{
+    justify-self: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 12pt;
+    background-color: #AAE8A9;
+    height: 40px;
+    border: 0;
+    width: 870px;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.reservation-box {
+    margin-bottom: 50px;
+    display: block;
+    height: 250px;
+    border: 1px solid;
+    width: 870px;
+}
+
+.user-box{
+    display: flex;
+    height: 165px;
+}
+
+.column {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+.column input{
+    display: block;
+    border:none;
+    border-bottom: 1px solid #393c41;
+    margin-bottom: 20px;
+}
+
+.selection-previous, .selection-next{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 15pt;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    background-color: #C5C5C5;
+    cursor: pointer;
+}
+
+.horizontal {
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+}
+.date-picker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    background-color: #C5C5C5;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 14pt;
+}
+
+.today{
+    background-color: #b5ff87;
+}
+
+.time-selector{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    background-color: #C5C5C5;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 14pt;
+    margin-right: 20px;
+}
+
+.time-selector input{
+    background: transparent;
+    width: 40%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 12pt;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.create-reservation-button{
+    background-color: #AAE8A9;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 11pt;
+}
+
+.spacer{
+    margin-left: 20px;
+    margin-right: 20px;
+}
