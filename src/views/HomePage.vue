@@ -8,11 +8,6 @@
         <div class="tabs">
           <label class="tab tab-selected" data-gender="1" @click="tabSelected">Мужские</label>
           <label class="tab" data-gender="0" @click="tabSelected">Женские</label>
-          <label class="tab" data-gender="2" @click="tabSelected">VIP 1</label>
-          <label class="tab" data-gender="3" @click="tabSelected">VIP 2</label>
-          <label class="tab" data-gender="4" @click="tabSelected">VIP 3</label>
-          <label class="tab" data-gender="5" @click="tabSelected">VIP 4</label>
-          <label class="tab" data-gender="6" @click="tabSelected">VIP 5</label>
         </div>
       </div>
     </div>

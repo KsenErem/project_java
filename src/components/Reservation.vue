@@ -3,11 +3,6 @@
     <div class="tabs">
       <label class="tab tab-selected" data-gender="1" @click="tabSelected">Мужские</label>
       <label class="tab" data-gender="0" @click="tabSelected">Женские</label>
-      <label class="tab" data-gender="2" @click="tabSelected">VIP 1</label>
-      <label class="tab" data-gender="3" @click="tabSelected">VIP 2</label>
-      <label class="tab" data-gender="4" @click="tabSelected">VIP 3</label>
-      <label class="tab" data-gender="5" @click="tabSelected">VIP 4</label>
-      <label class="tab" data-gender="6" @click="tabSelected">VIP 5</label>
     </div>
 
     <div class="user-box">
@@ -89,12 +84,12 @@ export default {
         return;
       }
 
-      if(this.reservationPeriod.startTime.split(':')[1] != '00' && this.reservationPeriod.startTime.split(':')[1] != '30'){
+      if(this.reservationPeriod.startTime.split(':')[1] !== '00' && this.reservationPeriod.startTime.split(':')[1] !== '30'){
         this.$toast.error('Минуты брони могут быть только :00 либо :30', 'Ошибка');
         return;
       }
 
-      if(this.reservationPeriod.endTime.split(':')[1] != '00' && this.reservationPeriod.endTime.split(':')[1] != '30'){
+      if(this.reservationPeriod.endTime.split(':')[1] !== '00' && this.reservationPeriod.endTime.split(':')[1] !== '30'){
         this.$toast.error('Минуты брони могут быть только :00 либо :30', 'Ошибка');
         return;
       }
